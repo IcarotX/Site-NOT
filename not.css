@@ -1,0 +1,56 @@
+.nav-link:hover{
+    color: white;
+}
+.card-title{
+    margin-top: 10px;
+}
+
+#topics{
+    width: 100%;
+    height: 50px;
+    background-color: #0d6efd;
+    color: yellow;
+}
+#topics ul{
+    list-style-type: none;
+}
+#topics ul li{
+    float: left;
+    margin: auto 20px;
+    font-size: 25px;
+    display: inline-block;
+}
+#topics ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+#topics ul li a:hover{
+    width: 30px;
+    color: white;
+    transition: width 1s, color 0.5s;
+}
+#subemail{
+    background-color: #0d6efd;
+    border-radius: 35px;
+}
+footer{
+    background-color: black;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    float: left;
+     margin: 30px 60px;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+footer img:hover{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    transition: width 1.6s, height 1.6s, border-radius 2s, background-color 2s;
+}
